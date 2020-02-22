@@ -2,10 +2,10 @@ import React from "react";
 import "./App.css";
 import Nav from "./components/Nav";
 import { BrowserRouter, Route } from "react-router-dom";
-import Home from "./components/pages/Home";
-import Login from "./components/pages/Login";
-import Cart from "./components/pages/Cart";
-import Quote from "./components/pages/Quote";
+import Home from "./components/catalogue/Home";
+import Login from "./components/login/Login";
+import Cart from "./components/cart/Cart.js";
+import Quote from "./components/quote/Quote";
 function App() {
   return (
     <BrowserRouter>
